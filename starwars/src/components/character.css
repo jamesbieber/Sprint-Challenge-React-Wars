@@ -22,3 +22,8 @@
 	color: white;
 	background-color: #B05A03;
 }
+
+.charcter-item:hover {
+	opacity: .2;
+	background-color: #B67900;
+}

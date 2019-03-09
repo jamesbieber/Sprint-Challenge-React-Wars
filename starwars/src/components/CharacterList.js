@@ -1,4 +1,5 @@
 import React from 'react'
+import './character.css'
 
 import Character from './Character'
 
@@ -8,7 +9,6 @@ const CharacterList = (props) => {
 
 		<div>
 			<ul className="character-list">
-				{console.log(props.starwarsChars)}
 				{props.starwarsChars.map((character, index) => {
 					return <Character key={index} character={character} />
 				})}
