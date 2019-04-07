@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'stars';
+	src: url('/soloist1.ttf');
+}
+
+
+.character-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	list-style-type: none; 
+}
+
+.character-item {
+	width: 20%;
+	margin-bottom: 3%;
+	padding: 0;
+	opacity: .7;
+	font-family: 'stars';
+	color: white;
+	background-color: #B05A03;
+}
